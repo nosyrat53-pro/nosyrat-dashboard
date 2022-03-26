@@ -1,0 +1,22 @@
+.Updates__paper h2{
+    margin-bottom: 15px;
+}
+
+.updates__container {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    border-bottom: 1px solid rgba(0 0 0 / 20%);
+}
+
+.updates__container .update__container {
+    margin-bottom: 24px;
+}
+
+.seeAllUpdates {
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

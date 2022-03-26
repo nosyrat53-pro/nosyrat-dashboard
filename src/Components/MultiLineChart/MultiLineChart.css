@@ -1,0 +1,39 @@
+.linechart__paper {
+    position: relative;
+}
+.linechart__paper canvas{
+    /* width: 100% !important; */
+    /* height: 100% !important; */
+}
+
+.linechart__paper h2 {
+    /* color: #00ab55; */
+}
+
+.linechart__paper h4 {
+    color: rgba(0 0 0 / 60%);
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.linechart__paper .chartjs-tooltip {
+    position: absolute;
+    z-index: 100;
+    /* background-color: rgba(0 0 0 / 15%);
+    top: -100px !important; */
+        backdrop-filter: blur(6px);
+        background-color: rgba(249, 250, 251, 0.52);
+        border: 0px;
+        box-shadow: rgb(145 158 171 / 24%) 0px 0px 4px 0px, rgb(145 158 171 / 24%) 0px 24px 48px 0px;
+        border-radius: 12px;
+        padding: 12px;
+}
+
+.chartjs-tooltip-body-item {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.chartjs-tooltip-body-item td span {
+    border-radius: 50%;
+}

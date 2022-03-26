@@ -1,0 +1,12 @@
+.Current__paper {
+    position: relative;
+}
+
+.Current__paper h2 {
+    /* color: #00ab55; */
+    margin-bottom: 15px;
+}
+
+.Current__paper .chartjs-tooltip {
+    position: absolute;
+}

@@ -1,0 +1,10 @@
+.Traffic__paper > h2 {
+    margin-bottom: 15px;
+}
+
+.traffic__flexContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,198 @@
+.css-mhc70k-MuiGrid-roo {
+    /* //width: 100% !important; */
+    
+}
+
+.sidebar {
+    border-right: 1px dashed rgba(0 0 0 / 25%);
+    height: 104vh;
+    overflow-y: auto;
+    transition: all .225s cubic-bezier(0.4, 0, 0.2, 1);
+    max-width: 300px !important;
+}
+
+@media (max-width: 1200px){
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 1000;
+        background-color: white;
+    }
+}
+
+
+
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f100;
+
+
+  }
+  
+  /* Handle */
+  .sidebar::-webkit-scrollbar-thumb {
+    background: #88888888;
+  }
+  
+  /* Handle on hover */
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.logo {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 15px;
+    margin-top: 25px;
+}
+
+.underLogoBox {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 16px 20px;
+    border-radius: 12px;
+    background-color: rgba(145, 158, 171, 0.12);
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.boxlogo {
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    border-radius: 50%;
+}
+
+.boxname {
+    font-weight: 600;
+    line-height: 1.57143;
+    font-size: 0.875rem;
+    letter-spacing: .1px;
+}
+
+.menu {
+    margin-top: 25px;
+}
+
+.menu__item {
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    line-height: 1.57143;
+    font-size: .875rem;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: .1px;
+    height: 48px;
+    position: relative;
+    text-transform: capitalize;
+    color: rgb(99, 115, 129);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.menuItem__text {
+    flex: 1;
+    text-align: left;
+    color: rgb(99, 115, 129);
+    margin-right: 20px;
+    z-index: -1;
+}   
+
+.menu__icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 16px;
+    color: rgb(99, 115, 129) !important;
+    margin-left: 40px;
+    font-size: 1.1rem !important;
+    z-index: -1;
+}
+
+.munu__link {
+    text-decoration: none;
+    z-index: 1;
+}
+
+.activeButton{
+   color: #03703999 !important;
+   background-color: #03703922 !important;
+}
+
+.menu__button {
+    z-index: 999;
+}
+
+.active {
+    position: relative;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #04a052;
+}
+.active .menu__icon {
+    color:rgb(0, 171, 85) !important;
+}
+
+.active .menuItem__text {
+    color:rgb(0, 171, 85);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.sidebar__downsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.sidebar__downsectionavatar {
+    width: 100px;
+}
+
+.sidebar__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar__text > h3 {
+    margin: 10px;
+    color: rgba(0 0 0 / 85%);
+    font-size: 1.4rem;
+}
+
+.sidebar__text > div {
+    text-transform: capitalize;
+    color:rgb(99, 115, 129);
+    font-weight: 300;
+    font-size: .875rem;
+}
+
+.sidebar__text > button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 171, 85);
+    font-weight: 700;
+}
+
+.sidebar__text > button:hover {
+    background-color: #037039;
+}

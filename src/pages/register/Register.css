@@ -1,0 +1,157 @@
+.register {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 16px;
+    flex: 1;
+    padding-bottom: 70px;
+    margin-top: 16px !important;
+}
+
+@media (max-width: 1200px){
+    .register{
+    padding-left: 32px !important; 
+}
+}
+
+@media (max-width: 900px){
+    .leftRegisterLoginSide {
+        display: none;
+    }
+}
+
+.registerLogo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 60px;
+}
+
+.registerTitle {
+    margin-bottom: 60px;
+}
+
+.registerImageills {
+    width: 100%;
+}
+
+.haveAccount {
+    align-self: flex-end;
+}
+
+.haveaccouuntlink {
+    color: rgb(0, 171, 85);
+    text-decoration: none;
+}
+
+.registerFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.getstarted {
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+}
+
+.nocredit {
+    color: rgb(99, 115, 129);
+    font-size: .95rem;
+    font-weight: 300;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+.regButtons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.regButtons button {
+    width: 30%;
+    border-radius: 8px;
+    padding: 7px 21px;
+    height: 48px;
+    border: 1px solid rgba(145, 158, 171, 0.32);
+}
+
+.regButtons button:hover {
+    border: 1px solid rgba(145, 158, 171, 0.32);
+    background: rgb(231, 231, 231);
+    color: #00000066;
+}
+
+.regButtons button img {
+    height: 16px;
+}
+
+.orContainer {
+    width: 100%;
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orItself {
+    color: rgb(99, 115, 129);
+    position: relative;
+}
+
+.orItself::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    width: 200px;
+    border-top: 1px solid rgba(99, 115, 129 , .205);
+}
+
+.orItself::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    width: 200px;
+    border-top: 1px solid rgba(99, 115, 129, 0.205);
+}
+
+.flnameContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.flnameContainer .MuiTextField-root {
+    width: 50% !important;
+    margin: 0px !important;
+}
+
+.flnameContainer .lastname  {
+    margin-left: 20px !important;
+}
+
+.emailpassContainer {
+    width: 100%;
+}
+
+.emailpassContainer .empas {
+    width: 100% !important;
+    margin: 0px !important;
+    margin-bottom: 25px !important;
+}
+
+.bottomTerms {
+    width: 100%;
+    margin-top: 24px;
+    color: rgb(99, 115, 129) ;
+    text-align: center;
+    font-size: .9rem;
+    letter-spacing: .4px;
+}

@@ -1,0 +1,27 @@
+.traffic__container {
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 43, 54);
+    border-radius: 8px;
+    border: 1px solid rgba(145, 158, 171, 0.24);
+    background-image: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 48%;
+    margin-bottom: 16px;
+}
+
+.traffic__container img {
+    margin-bottom: 4px;
+}
+
+.traffic__container .traffic__content .TrafficContent__number {
+    line-height: 1.5;
+    font-size: 1.65rem;
+}
+
+.traffic__container .traffic__content .TrafficContent__name {
+    color: rgb(99, 115, 129);
+    font-weight: 200;
+    letter-spacing: .5px;
+}

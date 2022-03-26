@@ -1,0 +1,44 @@
+.blog{
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 16px;
+    flex: 1;
+    padding-bottom: 70px;
+} 
+
+@media (max-width: 1200px){
+    .blog{
+    padding-left: 32px !important; 
+}
+}
+
+
+.topSpacer {
+    width: 100%;
+    height: 100px;
+}
+
+.blog__title {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog__title .blog__container {
+    position: relative;
+}
+
+.blog__title .blog__container .blogContainer {
+    position: absolute;
+    top: 0;
+    left: -35px;
+}
+
+.blog__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}

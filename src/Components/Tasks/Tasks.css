@@ -1,0 +1,8 @@
+.tasks__paper > h2 {
+    margin-bottom: 15px;
+}
+
+.Tasks__Container {
+    display: flex;
+    flex-direction: column;
+}

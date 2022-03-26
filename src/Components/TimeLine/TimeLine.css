@@ -1,0 +1,19 @@
+.timeLine__paper > h2 {
+    margin-bottom: 15px;
+}
+.timeLine__paper li {
+    /* min-height: 95px; */
+}
+.timeLine__paper li::before{
+    display: none !important;
+}
+
+.timeLine__paper li span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.timeLine__paper li p {
+    font-size: .8rem;
+    color: rgb(99, 115, 129);
+}

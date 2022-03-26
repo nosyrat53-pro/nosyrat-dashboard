@@ -1,0 +1,42 @@
+.notfound {
+    height: 100vh;
+    overflow-y: scroll;
+}
+.notfoundContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 120px;
+    padding-bottom: 80px;
+    padding-left: 24px;
+    padding-right: 24px; */
+    max-width: 480px;
+    margin: 0px auto;
+}
+
+.notfound .notfound__logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.notfound__title {
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 15px;
+}
+
+.notfound__desc {
+    color: rgb(99, 115, 129);
+    text-align: center;
+    font-size: 1.13rem;
+    font-weight: 400;
+    line-height: 1.875;
+
+}
+
+.notfound__image {
+    height: 260px;
+    margin: 15% auto;
+}

@@ -1,0 +1,31 @@
+.conversion__paper {
+    min-height: 400px;
+    position: relative;
+}
+
+.conversion__paper canvas {
+    /* width: 100% !important;
+    height: 300px !important; */
+    transform: rotate(90deg);
+    position: relative;
+}
+.conversion__paper > h2 {
+    margin-bottom: 15px;
+    /* color: #00ab55; */
+}
+
+.conversion__paper .chartjs-tooltip {
+    /* position: relative; */
+
+    position: relative;
+}
+
+.conversion__paper .chartjs-tooltip {
+    position:absolute;
+    top: 50px !important;
+    left: 50px !important;
+}
+
+.conversion__paper .chartjs-tooltip .chartjs-tooltip-body-item td {
+    letter-spacing: .4px;
+}

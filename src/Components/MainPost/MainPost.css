@@ -1,0 +1,53 @@
+.mainpost {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.mainpost > img {
+    width: 100%;
+}
+
+.mainpost .mainpost__avatar {
+    position: relative;
+}
+
+.mainpost .mainpost__avatar .avatartbg {
+    width: 80px;
+    height: 36px;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+.mainpost .mainpost__avatar .avatar__itself {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    left: 33px;
+    top: -15px;
+}
+
+.mainpost__content {
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.mainpost__content .content__date{
+    color: rgb(145, 158, 171);
+    font-size: .85rem;
+    margin-bottom: 10px;
+}
+
+.mainpost .content__title {
+    display: inline-block;
+    cursor: pointer;
+    color: black !important; 
+
+    text-decoration: none !important;
+}
+
+.mainpost__content .dtc__info {
+ 
+}

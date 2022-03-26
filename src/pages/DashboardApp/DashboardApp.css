@@ -1,0 +1,27 @@
+.css-mhc70k-MuiGrid-roo {
+    /* width: 100% !important; */
+}
+
+.dashboard {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 16px;
+    flex: 1;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 1200px){
+    .dashboard{
+    padding-left: 32px !important; 
+}
+}
+
+.topSpacer {
+    width: 100%;
+    height: 80px;
+}
+
+.dashboard__welcom {
+    margin-bottom: 40px;
+}

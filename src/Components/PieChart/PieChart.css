@@ -1,0 +1,32 @@
+.Piechart__paper {
+    position: relative;
+}
+.Piechart__paper .chartjs-tooltip {
+    position: absolute;
+}
+
+.Piechart__paper h2 {
+    margin-bottom: 15px;
+    /* color: #00ab55; */
+}
+
+.chartjs-tooltip-body-item {
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px -4px #999;
+    cursor: default;
+    font-size: 14px;
+    left: 62px;
+    opacity: 1;
+    pointer-events: none;
+    /* position: absolute;
+    top: 20px; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff;
+    background: rgba(30, 30, 30, 0.8);
+    padding: 6px 16px;
+    font-size: 1.1rem;
+    letter-spacing: .5px;
+}
